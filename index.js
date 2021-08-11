@@ -11,4 +11,8 @@ const colors = [
     return Math.floor(Math.random() * (max - min + 1) + min);
   };
 
+  const start = document.querySelector('[data-action="start"]');
+  const stop = document.querySelector('[data-action="stop]');
+  const body = document.querySelector("body");
+
   
